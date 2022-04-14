@@ -1,0 +1,70 @@
+.nav {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  z-index: 1000;
+  transform: translate(-50%, -160px);
+  transition: 0.2s all ease-out;
+  &-show {
+    transform: translate(-50%, 0px) !important;
+  }
+  &-language {
+    position: absolute;
+    top: 80px;
+    right: 47px;
+  }
+  &-currency {
+    position: absolute;
+    top: 80px;
+    left: 40px;
+  }
+  &-drop {
+    width: 80px;
+    border-radius: 10px;
+    color: #fff;
+    background: #747ca5 !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+    padding: 10px 10px 0px;
+    transition: all 0.5s ease-out;
+    &__item {
+      margin-bottom: 10px;
+      font-size: 12px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+  &__secondary {
+    width: 37px;
+    height: 37px;
+    color: #fff;
+    background: #3a3f4e;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+  }
+  &__link {
+    &:nth-child(1),
+    &:nth-child(5) {
+      padding: 15px;
+      background: #747ca5;
+      box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.05);
+      backdrop-filter: blur(40px);
+      border-radius: 33px;
+    }
+    &:not(:first-child) {
+      margin-left: 11px;
+    }
+  }
+
+  &__middle {
+    padding-top: 12px;
+    text-align: center;
+    width: 65px;
+  }
+}

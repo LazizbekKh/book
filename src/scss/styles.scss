@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import "bootstrap-grid.scss";
+@import "libs/normalize.scss";
+@import "libs/slick-theme.scss";
+@import "libs/animate.scss";
+@import "libs/slick.scss";
+@import "modules/samethings.scss";
+@import "modules/pages/search.scss";
+@import "modules/pages/registeration.scss";
+@import "modules/pages/user_data.scss";
+@import "modules/pages/home.scss";
+@import "modules/pages/book_detail.scss";
+@import "modules/layer/nav";
+@import "modules/layer/footer";
+@import "modules/layer/header";
+@import "modules/media.scss";
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box !important;
+  padding: 0;
+  margin: 0;
+}
+body {
+  min-width: 300px;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background: $global_bg;
+  -webkit-user-select: none; /* Chrome all / Safari all */
+  -moz-user-select: none; /* Firefox all */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+  overflow-x: hidden;
+  line-height: normal;
+}
+.wrap {
+  position: relative;
+  overflow: hidden;
+  &-overlay {
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+}
+a {
+  text-decoration: none !important;
+  color: inherit;
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+  &:hover {
+    color: inherit;
+  }
+}
+button {
+  border: none !important;
+  outline: none !important;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+li {
+  list-style: none;
+}
+img {
+  vertical-align: middle;
+}

@@ -1,0 +1,120 @@
+{
+    "items": {
+        "item1": {
+            "title": "1 section",
+            "products":[
+                {
+                    "name": "Платье Кокетка",
+                    "company": "OOO Cotton Club",
+                    "cost": "10000 USD",
+                    "guarantee": "1 year",
+                    "country": "uzb",
+                    "id": 1
+                },
+                {
+                    "name": "Платье Кокетка",
+                    "company": "OOO Cotton Club",
+                    "cost": "10000 USD",
+                    "guarantee": "1 year",
+                    "country": "uzb",
+                    "id": 2
+                },
+                {
+                    "name": "Платье Кокетка",
+                    "company": "OOO Cotton Club",
+                    "cost": "10000 USD",
+                    "guarantee": "1 year",
+                    "country": "uzb",
+                    "id": 3
+                }
+            ]
+        },
+        "item2": {
+            "title": "2 section",
+            "products":[
+                {
+                    "name": "Платье Кокетка",
+                    "company": "OOO Cotton Club",
+                    "cost": "10000 USD",
+                    "guarantee": "1 year",
+                    "country": "uzb",
+                    "id": 1
+                },
+                {
+                    "name": "Платье Кокетка",
+                    "company": "OOO Cotton Club",
+                    "cost": "10000 USD",
+                    "guarantee": "1 year",
+                    "country": "uzb",
+                    "id": 2
+                },
+                {
+                    "name": "Платье Кокетка",
+                    "company": "OOO Cotton Club",
+                    "cost": "10000 USD",
+                    "guarantee": "1 year",
+                    "country": "uzb",
+                    "id": 3
+                }
+            ]
+        },
+        "item3": {
+            "title": "3 section",
+            "products":[
+                {
+                    "name": "Платье Кокетка",
+                    "company": "OOO Cotton Club",
+                    "cost": "10000 USD",
+                    "guarantee": "1 year",
+                    "country": "uzb",
+                    "id": 1
+                },
+                {
+                    "name": "Платье Кокетка",
+                    "company": "OOO Cotton Club",
+                    "cost": "10000 USD",
+                    "guarantee": "1 year",
+                    "country": "uzb",
+                    "id": 2
+                },
+                {
+                    "name": "Платье Кокетка",
+                    "company": "OOO Cotton Club",
+                    "cost": "10000 USD",
+                    "guarantee": "1 year",
+                    "country": "uzb",
+                    "id": 3
+                }
+            ]
+        },
+        "item4": {
+            "title": "4 section",
+            "products":[
+                {
+                    "name": "Платье Кокетка",
+                    "company": "OOO Cotton Club",
+                    "cost": "10000 USD",
+                    "guarantee": "1 year",
+                    "country": "uzb",
+                    "id": 1
+                },
+                {
+                    "name": "Платье Кокетка",
+                    "company": "OOO Cotton Club",
+                    "cost": "10000 USD",
+                    "guarantee": "1 year",
+                    "country": "uzb",
+                    "id": 2
+                },
+                {
+                    "name": "Платье Кокетка",
+                    "company": "OOO Cotton Club",
+                    "cost": "10000 USD",
+                    "guarantee": "1 year",
+                    "country": "uzb",
+                    "id": 3
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,146 @@
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  overflow: hidden;
+  min-height: 560px !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 12000;
+  background: #3a3f4e;
+  &-policy {
+    max-width: 700px;
+    height: 70vh;
+    margin-bottom: 10px;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+      background: transparent;
+    }
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+  }
+  &-payment {
+    display: flex;
+    justify-content: space-between;
+    &_button {
+      background: transparent;
+    }
+    & img {
+      width: 160px;
+      height: 160px;
+    }
+  }
+  &-navs {
+    position: absolute;
+    top: 0;
+    width: 100px;
+    display: flex;
+    padding-top: 15px;
+    &__item {
+      padding: 15px;
+      background: #747ca5;
+      box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.05);
+      backdrop-filter: blur(40px);
+      border-radius: 33px;
+      &:nth-child(2) {
+        margin-left: 15px;
+      }
+    }
+  }
+  &__close {
+    margin-left: 10px;
+  }
+  &-wrap {
+    width: 350px;
+    min-height: 560px;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &-confirm {
+    width: 500px;
+  }
+  &__title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+    &-span {
+      text-align: center;
+      color: $orange;
+    }
+  }
+  &_close {
+    position: fixed;
+    top: 30px;
+  }
+  &__img {
+    width: 235px;
+    height: 265px;
+    margin-bottom: 20px;
+    &-girl {
+      width: 100% !important;
+    }
+  }
+  &-form {
+    width: 100%;
+    &__info {
+      font-weight: bold;
+      font-size: 10px;
+      line-height: 14px;
+      color: #999999;
+      margin-bottom: 5px;
+    }
+    &__block {
+      width: 100%;
+      display: block;
+      box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.05);
+      border-radius: 20px;
+      color: #fff;
+      border: none;
+      outline: none;
+      padding: 14px 0;
+      margin-bottom: 20px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 100%;
+    }
+    &__input {
+      background: $bg;
+      padding: 14px 20px;
+    }
+    &__button {
+      background: $green;
+    }
+    &__repeat {
+      width: 100%;
+      background: transparent;
+      text-align: center;
+    }
+    &__orange {
+      font-weight: bold;
+      font-size: 10px;
+      line-height: 14px;
+      color: #fe8d00;
+      text-align: center;
+      margin-bottom: 5px;
+    }
+    &__centered {
+      text-align: center;
+    }
+    &__green {
+      color: $green;
+      margin-left: 5px;
+    }
+  }
+}
+.confirm {
+}
